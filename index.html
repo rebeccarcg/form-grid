@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Logga in</div>
+        <div class="subheading">Skapa ett konto</div>
+        <form action="https://httpbin.org/anything" method="post">
+            <div class="form-group">
+                <label for="name">Namn: </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Mejladress: </label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-group">
+                <label for="password">Lösenord: </label>
+                <input type="password" name="password" id="password" required />
+            </div>
+            <div class="inline-form-group">
+                <input type="checkbox" id="terms" name="terms" checked />
+                <label for="terms">Jag godkänner användarvillkor</label>
+            </div>
+            <fieldset class="radio-form-group">
+                <legend>Välj husdjur:</legend>
+
+                <div>
+                    <input type="radio" id="hund" name="husdjur" value="hund" checked />
+                    <label for="hund">Hund</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="katt" name="husdjur" value="katt" />
+                    <label for="katt">Katt</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="mus" name="husdjur" value="mus" />
+                    <label for="mus">Mus</label>
+                </div>
+            </fieldset>
+
+            <div class="submit-form-group">
+                <input type="submit" value="Spara" />
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

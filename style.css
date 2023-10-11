@@ -1,0 +1,41 @@
+.heading {
+  font-size: 30px;
+  padding: 2px;
+  text-align: center;
+}
+
+.form-group {
+  text-align: center;
+  padding: 5px;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  place-items: center;
+}
+
+.subheading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 8fr;
+  place-items: center;
+}
+
+.submit-form-group {
+  text-align: center;
+  padding: 10px;
+}
+
+.radio-form-group {
+  margin-top: 10px;
+}
